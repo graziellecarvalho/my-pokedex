@@ -1,6 +1,6 @@
 # Pokedex 
 
-![Pokedex Layout](/images/pokedex-layout.png)
+![Pokedex Layout](/public/images/pokedex-layout.png)
 
 ## Tasks to be made
 

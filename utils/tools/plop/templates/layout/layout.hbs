@@ -1,0 +1,31 @@
+// External dependencies
+import React from 'react';
+import { Container } from 'react-bootstrap';
+
+// Internal modules
+import { Layout } from './{{ pascalCase name }}Layout.styles';
+import { OptionsProps } from 'typings/OptionsProps';
+import { RouteProps } from 'typings/RouteProps';
+import { MenuProps } from 'typings/MenuProps';
+import { {{ pascalCase name }}LayoutProps } from './{{ pascalCase name }}Layout.types';
+
+// Properties definition
+interface Props {
+	route: RouteProps;
+	options: OptionsProps;
+	menus: MenuProps[];
+}
+
+export const {{ pascalCase name }}Layout = ({ route, options, menus }: Props) => {
+	const content = route.content as {{ pascalCase name }}LayoutProps;
+
+	return (
+		<Layout context={route} options={options} menus={menus}>
+			<Container>
+				<strong>{{ titleCase name }}</strong> Layout
+				<h1>{route.title}</h1>
+				<pre>{JSON.stringify(content, null, '\t')}</pre>
+			</Container>
+		</Layout>
+	);
+};

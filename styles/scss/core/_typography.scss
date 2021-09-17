@@ -1,0 +1,45 @@
+/**
+ * Typography definition
+ * These configurations take in consideration what is set in the _variables.scss file
+ */
+
+@include media-breakpoint-up(lg) {
+	h1, .h1 {
+		font-size: $h1-lg-font-size;
+	}
+	h2, .h2 {
+		font-size: $h2-lg-font-size;
+	}
+	h3, .h3 {
+		font-size: $h3-lg-font-size;
+	}
+	h4, .h4 {
+		font-size: $h4-lg-font-size;
+	}
+	.h5 {
+		font-size: $h5-lg-font-size;
+	}
+	.h6 {
+		font-size: $h6-lg-font-size;
+	}
+
+	// Breakpoint classes
+	.h1-lg {
+		font-size: $h1-lg-font-size;
+	}
+	.h2-lg {
+		font-size: $h2-lg-font-size;
+	}
+	.h3-lg {
+		font-size: $h3-lg-font-size;
+	}
+	.h4-lg {
+		font-size: $h4-lg-font-size;
+	}
+	.h5-lg {
+		font-size: $h5-lg-font-size;
+	}
+	.h6-lg {
+		font-size: $h6-lg-font-size;
+	}
+}

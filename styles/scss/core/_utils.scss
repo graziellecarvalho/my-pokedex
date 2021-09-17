@@ -1,0 +1,10 @@
+/**
+ * Theme utilities
+ * Import this file in components to have variables and mixins available
+ */
+
+@import 'mixins';
+@import '../../node_modules/bootstrap/scss/functions';
+@import 'variables';
+@import '../../node_modules/bootstrap/scss/variables';
+@import '../../node_modules/bootstrap/scss/mixins';

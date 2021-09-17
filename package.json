@@ -1,0 +1,52 @@
+{
+	"name": "pokedex",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"create": "plop",
+		"dev": "next -p 3001",
+		"build": "next build",
+		"start": "next start -p 2288",
+		"lint": "next lint"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"colors": "^1.4.0",
+		"eslint-config-next": "^11.0.1",
+		"prettier": "^2.0.5",
+		"prettier-eslint": "^11.0.0",
+		"slugify": "^1.4.7"
+	},
+	"dependencies": {
+		"@types/node": "^14.14.35",
+		"@types/react": "^17.0.3",
+		"@typescript-eslint/eslint-plugin": "^4.18.0",
+		"@typescript-eslint/parser": "^4.18.0",
+		"babel-plugin-styled-components": "^1.12.0",
+		"bootstrap": "^4.6.0",
+		"classnames": "^2.2.6",
+		"eslint-config-prettier": "^8.1.0",
+		"eslint-plugin-prettier": "^3.3.1",
+		"file-loader": "^5.1.0",
+		"globby": "^11.0.2",
+		"isomorphic-unfetch": "^3.1.0",
+		"line-column": "^1.0.2",
+		"next": "^11.0.0",
+		"polished": "^4.1.3",
+		"react": "^17.0.2",
+		"react-bootstrap": "^1.5.2",
+		"react-dom": "^17.0.2",
+		"react-html-parser": "^2.0.2",
+		"react-icons": "^4.2.0",
+		"resolve-url-loader": "^3.1.1",
+		"sass": "^1.32.8",
+		"sitemap": "^6.2.0",
+		"styled-components": "^5.3.0",
+		"typescript": "^4.2.3",
+		"url-loader": "^3.0.0"
+	}
+}

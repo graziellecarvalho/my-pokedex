@@ -1,0 +1,63 @@
+/**
+ * Proxima Nova Font Family
+ * Create @font-face rules for the font family
+ */
+
+// Variables to reference the font files
+$family: 'Proxima Nova';
+$path: '/fonts/proxima-nova/';
+$basename: 'ProximaNova-';
+$extensions: (
+	woff2: '.woff2',
+	woff: '.woff',
+	truetype: '.ttf',
+);
+// Make sure all fonts are available in all extensions above!
+
+// Each variation of this Font Family
+// The properties below should match the name in the font files after the $basename
+$fonts: (
+	'Regular': (
+		weight: 400,
+		style: normal,
+	),
+	'Regular-Italic': (
+		weight: 400,
+		style: italic,
+	),
+	'Bold': (
+		weight: 700,
+		style: normal,
+	),
+	'Bold-Italic': (
+		weight: 700,
+		style: italic,
+	),
+);
+
+// Function that returns all paths to a font variation
+@function font-urls($variation, $formats) {
+	$urls: null;
+	@each $format, $extension in $extensions {
+		$urls: append(
+			$urls,
+			url($path + $format + '/' + $basename + $variation + $extension) format('#{$format}'),
+			comma
+		);
+	}
+	@return $urls;
+}
+
+// Create a @font-face each font variation in the $fonts list
+@each $font, $properties in $fonts {
+	$font-weight: map-get($properties, weight);
+	$font-style: map-get($properties, style);
+
+	@font-face {
+		font-family: $family;
+		src: font-urls($font, $extensions);
+		font-weight: $font-weight;
+		font-style: $font-style;
+		font-display: swap;
+	}
+}

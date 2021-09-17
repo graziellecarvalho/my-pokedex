@@ -1,0 +1,73 @@
+// Variables to reference the font files
+$family: 'Icons';
+$path: '/fonts/icons';
+$basename: 'icons';
+$version: '1'; // Int (Automatically updated with `gulp iconfont`)
+
+// Classes settings
+$class-prefix: 'icon-';
+$icons: (
+	cart: \e900,
+	spinner: \e901,
+	arrow: \e902,
+	arrow-thick: \e903,
+	arrow-thin: \e904,
+	car: \e905,
+	checked: \e906,
+	close: \e907,
+	facebook: \e908,
+	facebook-square: \e909,
+	instagram: \e90a,
+	linkedin: \e90b,
+	linkedin-square: \e90c,
+	mail: \e90d,
+	menu: \e90e,
+	messenger: \e90f,
+	pinterest: \e910,
+	search: \e911,
+	share: \e912,
+	tripadvisor: \e913,
+	twitter: \e914,
+	van: \e915,
+	whatsapp: \e916,
+	youtube: \e917,
+	youtube-play: \e918,
+);
+
+// Create a @font-face each font variation in the $fonts list
+@font-face {
+	font-family: $family;
+	src: url('#{$path}/#{$basename}.woff2?v#{$version}') format('woff2'),
+		url('#{$path}/#{$basename}.woff?v#{$version}') format('woff'),
+		url('#{$path}/#{$basename}.ttf?v#{$version}') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+	// Use !important to prevent issues with browser extensions that change fonts */
+	font-family: $family !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	// Better Font Rendering
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+// Function to fix string code
+@function unicode($str) {
+	@return unquote('"') + $str + unquote('"');
+}
+
+// Create a class for each icon in the $icons list
+@each $icon, $value in $icons {
+	.#{$class-prefix}#{$icon}:before {
+		content: unicode($value);
+	}
+}

@@ -1,0 +1,18 @@
+// External dependencies
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+
+// Internal dependencies
+import { Component } from './{{ pascalCase name }}.style';
+import { {{ pascalCase name }}Props } from './{{ pascalCase name }}.types'
+
+// Types
+interface Props extends {{ pascalCase name }}Props {
+	cssClass?: string;
+}
+
+export const {{ pascalCase name }} = ({ cssClass = '' }: Props) => {
+	return (
+		<Component className={`${cssClass}`}></Component>
+	);
+};

@@ -1,0 +1,230 @@
+[
+	{
+		"badge": "category",
+		"title": "Lorem ipsum dolor sit amet",
+		"excerpt": "Curabitur vitae tellus pharetra, condimentum est ut, ullamcorper ante. Mauris placerat tellus mi. Integer at urna nec orci lobortis ultrices. Vivamus interdum hendrerit est nec mollis. Donec iaculis turpis a metus posuere cursus. Nam sagittis ipsum non est scelerisque laoreet. Nulla eleifend faucibus justo, ac convallis augue maximus ut.",
+		"image": [
+			{
+				"imageSrc": "/images/tree.webp",
+				"imageAlt": "Image Alt"
+			}
+		],
+		"buttonUrl": "#"
+	},
+	{
+		"badge": "category",
+		"title": "Curabitur fermentum velit a ligula pellentesque imperdiet.",
+		"excerpt": "Mauris in nunc maximus lectus ultrices pulvinar eu in ante. Donec augue enim, fringilla molestie finibus nec, elementum id erat. Mauris volutpat dignissim nisl nec pharetra. Fusce vel leo sed enim condimentum faucibus vitae ac nunc. Integer pellentesque purus non velit semper cursus. Phasellus ut suscipit leo. Suspendisse aliquam suscipit diam, et pharetra dolor placerat sed. Mauris sed ornare augue. Praesent tempor libero non eros fringilla, in rhoncus tellus dapibus. Nullam ultricies nisl vel commodo efficitur. Phasellus dictum porta sodales. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras congue, dui non dictum feugiat, nulla dolor vulputate elit, vitae dapibus libero ipsum dignissim eros. Suspendisse potenti. Fusce condimentum purus et justo faucibus pulvinar.",
+		"image": [
+			{
+				"imageSrc": "/images/tree.webp",
+				"imageAlt": "Image Alt"
+			}
+		],
+		"buttonUrl": "#"
+	},
+	{
+		"badge": "category",
+		"title": "Fusce laoreet molestie metus, nec bibendum quam maximus at.",
+		"excerpt": "Fusce sed velit vitae lacus venenatis consectetur. Pellentesque mi diam, auctor ut pretium ac, commodo accumsan ex. Nam pretium augue ut molestie rutrum. ",
+		"image": [
+			{
+				"imageSrc": "/images/tree.webp",
+				"imageAlt": "Image Alt"
+			}
+		],
+		"buttonUrl": "#"
+	},
+	{
+		"badge": "category",
+		"title": "Maecenas eu rhoncus urna",
+		"excerpt": "Vestibulum neque augue, lacinia sed posuere eu, congue sed justo. Duis ultricies vehicula erat, sed eleifend massa molestie vitae. Quisque hendrerit neque sit amet neque dapibus convallis.",
+		"image": [
+			{
+				"imageSrc": "/images/tree.webp",
+				"imageAlt": "Image Alt"
+			}
+		],
+		"buttonUrl": "#"
+	},
+	{
+		"badge": "category",
+		"title": "Ut a ligula rhoncus purus dapibus semper eget at augue. ",
+		"excerpt": "Quisque ac pharetra leo, sed rutrum elit. Curabitur at fermentum turpis, eget tincidunt neque. Donec et quam lorem. Vivamus non nunc erat. Aenean elementum porta porta. Vestibulum tincidunt purus leo, hendrerit lacinia eros tempus sit amet.",
+		"image": [
+			{
+				"imageSrc": "/images/tree.webp",
+				"imageAlt": "Image Alt"
+			}
+		],
+		"buttonUrl": "#"
+	},
+	{
+		"badge": "category",
+		"title": "In ornare ligula nec hendrerit fringilla.",
+		"excerpt": " Fusce a porta metus. Morbi at libero a justo mollis auctor. Praesent vestibulum vulputate ex eget rutrum. Duis aliquam lacinia dolor bibendum cursus. Vestibulum faucibus libero efficitur, ullamcorper eros vel, mattis nibh.",
+		"image": [
+			{
+				"imageSrc": "/images/tree.webp",
+				"imageAlt": "Image Alt"
+			}
+		],
+		"buttonUrl": "#"
+	},
+	{
+		"badge": "category",
+		"title": "Morbi cursus viverra ex ac rhoncus. ",
+		"excerpt": "Suspendisse et dolor volutpat, sollicitudin nulla tempus, dignissim eros. Vestibulum lorem urna, aliquet at orci ac, facilisis imperdiet erat. Nulla bibendum semper dui, ut tempor mauris vestibulum eget.",
+		"image": [
+			{
+				"imageSrc": "/images/tree.webp",
+				"imageAlt": "Image Alt"
+			}
+		],
+		"buttonUrl": "#"
+	},
+	{
+		"badge": "category",
+		"title": "Morbi ligula velit",
+		"excerpt": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer ac mi ut velit malesuada placerat nec nec sem. Donec sed metus imperdiet, lobortis metus quis, consequat justo. Cras sollicitudin ultrices dolor, nec semper turpis suscipit nec. Praesent suscipit erat eget dolor posuere vestibulum.",
+		"image": [
+			{
+				"imageSrc": "/images/tree.webp",
+				"imageAlt": "Image Alt"
+			}
+		],
+		"buttonUrl": "#"
+	},
+	{
+		"badge": "category",
+		"title": "Suspendisse nulla lectus, consequat in finibus eget",
+		"excerpt": "Proin in fringilla eros, et aliquam arcu. Etiam ut pulvinar eros. Nam accumsan bibendum ipsum. Mauris in posuere dolor. Cras vel mi ornare, tristique elit nec, eleifend turpis. Aenean malesuada at enim non bibendum. Vestibulum at arcu sem. Praesent sollicitudin lorem eget nunc ullamcorper facilisis.",
+		"image": [
+			{
+				"imageSrc": "/images/tree.webp",
+				"imageAlt": "Image Alt"
+			}
+		],
+		"buttonUrl": "#"
+	},
+	{
+		"badge": "category",
+		"title": "Praesent quis nulla eu neque rutrum viverra.",
+		"excerpt": "Morbi dignissim gravida pharetra. Donec in risus rhoncus, porta lacus non, bibendum orci. In hac habitasse platea dictumst. Donec condimentum sagittis libero, eget commodo ligula sollicitudin at.",
+		"image": [
+			{
+				"imageSrc": "/images/tree.webp",
+				"imageAlt": "Image Alt"
+			}
+		],
+		"buttonUrl": "#"
+	},
+	{
+		"badge": "category",
+		"title": "In bibendum euismod imperdiet.",
+		"excerpt": "Duis justo turpis, ultrices eget leo sed, posuere gravida velit. In placerat, lacus vel varius aliquet, augue ligula interdum risus, ac tincidunt erat augue sed sapien. Cras nec sagittis odio.",
+		"image": [
+			{
+				"imageSrc": "/images/tree.webp",
+				"imageAlt": "Image Alt"
+			}
+		],
+		"buttonUrl": "#"
+	},
+	{
+		"badge": "category",
+		"title": "Suspendisse tristique nisi id eros cursus, ac pharetra diam venenatis.",
+		"excerpt": " Vivamus lobortis non diam vel posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a velit in metus accumsan hendrerit. Sed arcu lacus, lacinia at consectetur ut, consequat sed lorem. Etiam consectetur tincidunt ante ut pellentesque.",
+		"image": [
+			{
+				"imageSrc": "/images/tree.webp",
+				"imageAlt": "Image Alt"
+			}
+		],
+		"buttonUrl": "#"
+	},
+	{
+		"badge": "category",
+		"title": "Sed hendrerit venenatis dignissim.",
+		"excerpt": "Fusce sollicitudin, ligula a gravida tincidunt, nisi erat lobortis felis, non fringilla quam nunc sed elit. Suspendisse egestas justo nisi, ac bibendum nibh porta id.",
+		"image": [
+			{
+				"imageSrc": "/images/tree.webp",
+				"imageAlt": "Image Alt"
+			}
+		],
+		"buttonUrl": "#"
+	},
+	{
+		"badge": "category",
+		"title": "Donec elementum euismod orci sed blandit.",
+		"excerpt": "Vestibulum sollicitudin, lectus vel auctor dignissim, felis libero egestas tellus, placerat faucibus nisl ligula quis tortor. Phasellus at lacinia ipsum.",
+		"image": [
+			{
+				"imageSrc": "/images/tree.webp",
+				"imageAlt": "Image Alt"
+			}
+		],
+		"buttonUrl": "#"
+	},
+	{
+		"badge": "category",
+		"title": "Pellentesque purus risus",
+		"excerpt": "Nam gravida interdum risus sed egestas. Morbi ut lectus at metus mollis porttitor. Ut scelerisque metus erat, pulvinar facilisis erat gravida nec. Proin ut leo sed eros congue vulputate. Cras quis pretium dolor, sed sodales lacus. ",
+		"image": [
+			{
+				"imageSrc": "/images/tree.webp",
+				"imageAlt": "Image Alt"
+			}
+		],
+		"buttonUrl": "#"
+	},
+	{
+		"badge": "category",
+		"title": "Cras semper sodales est",
+		"excerpt": "Suspendisse vulputate hendrerit sem, vitae maximus justo auctor gravida. Maecenas porttitor mauris et massa aliquam eleifend. Quisque fermentum consectetur metus at egestas. Nam porttitor neque vitae blandit interdum. Pellentesque egestas nisi sit amet augue porttitor, ac feugiat libero placerat.",
+		"image": [
+			{
+				"imageSrc": "/images/tree.webp",
+				"imageAlt": "Image Alt"
+			}
+		],
+		"buttonUrl": "#"
+	},
+	{
+		"badge": "category",
+		"title": "Suspendisse at posuere lorem.",
+		"excerpt": "Sed ac varius sapien, vel vestibulum nulla. Duis hendrerit enim urna, id placerat ante ultrices vel. Morbi facilisis mollis ligula et pharetra. Duis sit amet nibh eros.",
+		"image": [
+			{
+				"imageSrc": "/images/tree.webp",
+				"imageAlt": "Image Alt"
+			}
+		],
+		"buttonUrl": "#"
+	},
+	{
+		"badge": "category",
+		"title": "Maecenas vitae risus ac odio dignissim luctus at nec risus.",
+		"excerpt": "Integer non convallis mauris. Sed vitae blandit arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
+		"image": [
+			{
+				"imageSrc": "/images/tree.webp",
+				"imageAlt": "Image Alt"
+			}
+		],
+		"buttonUrl": "#"
+	},
+	{
+		"badge": "category",
+		"title": "Sed id tortor eget urna porta mollis.",
+		"excerpt": "",
+		"image": [
+			{
+				"imageSrc": "/images/tree.webp",
+				"imageAlt": "Image Alt"
+			}
+		],
+		"buttonUrl": "#"
+	}
+]

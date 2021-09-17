@@ -1,0 +1,35 @@
+/* GLOBAL CSS */
+
+* {
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	box-sizing: border-box;
+}
+
+/* purgecss start ignore */
+html {
+	scroll-behavior: smooth;
+}
+/* purgecss end ignore */
+
+img,
+figure {
+	max-width: 100%;
+	height: auto;
+}
+
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+/* ::selection {
+	background: $primary;
+	color: white;
+} */
+
+/* ::placeholder {
+	color: $medium;
+} */
